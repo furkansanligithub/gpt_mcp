@@ -7,18 +7,20 @@
   <title>Deals And Discounts Widget</title>
 
   <!-- Mapping the page type to the Insider One Web SDK -->
-  <script type="text/javascript">
-    window.InsiderQueue = [];
+  <script>
+    window.InsiderQueue = window.InsiderQueue || [];
   </script>
 
   <!-- Load the Insider Tag -->
   <script async src="https://onboardingairline.api.useinsider.com/ins.js?id=10014103"></script>
 
 
-  <script type="text/javascript">
+  <script>
     window.InsiderQueue.push({ type: "user", value: { name: "John Doe" } });
     window.InsiderQueue.push({ type: "home" });
-    window.InsiderQueue.push({ type: "init" });
+    window.InsiderQueue.push({
+      type: 'init'
+    });
   </script>
   <!-- Example of how to track events -->
   <script type="text/javascript">
