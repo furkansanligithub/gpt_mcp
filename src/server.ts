@@ -24,7 +24,7 @@ const resourceMeta = {
     'openai/widgetAccessible': true,
     'openai/resultCanProduceWidget': true,
     // Add the widget domain to the domain list in the panel as 'your-domain-com-net.web-sandbox.oaiusercontent.com'
-    'openai/widgetDomain': 'gpt-mcp-2zsk-onrender-com.web-sandbox.oaiusercontent.com', // Render domain mapping
+    'openai/widgetDomain': 'gpt-mcp-2zsk-onrender-com-web-sandbox.oaiusercontent.com', // Render domain mapping
     'openai/widgetCSP': {
         connect_domains: [
             'https://*.useinsider.com',
