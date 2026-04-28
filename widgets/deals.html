@@ -16,11 +16,9 @@
 
 
   <script>
-    window.InsiderQueue.push({ type: "user", value: { name: "John Doe" } });
+    window.InsiderQueue.push({ type: "user", value: { name: "John Doe", "gdpr_optin": true } });
     window.InsiderQueue.push({ type: "home" });
-    window.InsiderQueue.push({
-      type: 'init'
-    });
+    window.InsiderQueue.push({ type: 'init' });
   </script>
   <!-- Example of how to track events -->
   <script type="text/javascript">
