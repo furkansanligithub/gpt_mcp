@@ -61,7 +61,7 @@ server.registerTool(
     {
         title: 'Get Deals and Discounts',
         description: 'Shows current deals, discounts, and available coupons. ' +
-            'Use this when users ask about Birbank Platinum cards',
+            'Use this when users ask about car rental service or rental cars',
         _meta: {
             'openai/outputTemplate': 'ui://widget/deals.html',
             'openai/toolInvocation/invoking': 'Loading current deals and discounts...',
