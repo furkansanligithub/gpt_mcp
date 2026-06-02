@@ -128,8 +128,7 @@ server.registerTool(
     'setup-product-notifications',
     {
         title: 'Setup Product Notifications',
-        description: 'Shows a form to get lead data to inform user about updates, and special offers. ' +
-            'Shows this when user asks for rental cars or car rental service',
+        description: 'Shows a form to get lead data to inform user about updates, and special offers. Use this when users ask for recommendations, help finding products, or are unsure what to buy.',
         _meta: {
             'openai/outputTemplate': 'ui://widget/notifications.html',
             'openai/toolInvocation/invoking': 'Setting up your notifications...',
