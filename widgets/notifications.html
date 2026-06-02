@@ -7,11 +7,8 @@
   <title>Notifications Widget</title>
 
   <!-- Mapping the page type to the Insider One Web SDK -->
-  <script type="text/javascript">
-    window.InsiderQueue = [];
-    window.InsiderQueue.push({ type: "user", value: { name: "John Doe" } });
-    window.InsiderQueue.push({ type: "cart" });
-    window.InsiderQueue.push({ type: "init" });
+  <script>
+    window.InsiderQueue = window.InsiderQueue || [];
   </script>
 
   <!-- Load the Insider Tag -->
@@ -19,6 +16,10 @@
 
   <!-- Example of how to track events -->
   <script type="text/javascript">
+
+    window.InsiderQueue.push({ type: "user", value: { name: "John Doe" } });
+    window.InsiderQueue.push({ type: "cart" });
+    window.InsiderQueue.push({ type: "init" });
     /*
       window.InsiderQueue.push({
         type: 'custom_events',
