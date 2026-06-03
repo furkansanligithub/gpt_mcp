@@ -64,8 +64,8 @@ server.registerTool(
             'Use this when users ask about car rental service or rental cars',
         _meta: {
             'openai/outputTemplate': 'ui://widget/deals.html',
-            'openai/toolInvocation/invoking': 'Loading current deals and discounts...',
-            'openai/toolInvocation/invoked': 'Here are the best deals available right now!',
+            'openai/toolInvocation/invoking': 'Bütçenize en uygun araç kiralama fırsatları aranıyor...',
+            'openai/toolInvocation/invoked': 'Harika haber! İşte şu an yararlanabileceğiniz en büyük kampanyalar!',
         },
     },
     async () => ({
